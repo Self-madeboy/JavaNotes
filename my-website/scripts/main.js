@@ -20,7 +20,7 @@ if (! localStorage.getItem("name")) {
 } else {    
     let storedName =localStorage.getItem("name");
 
-    myHeading.textContent="The picture is awsome !"+maName;
+    myHeading.textContent="The picture is awsome !"+storedName;
 }
 myButton.onclick =function(){
     setUserName();
